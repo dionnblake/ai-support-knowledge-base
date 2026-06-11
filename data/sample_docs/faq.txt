@@ -1,0 +1,13 @@
+AI SUPPORT AGENT KNOWLEDGE BASE - FREQUENTLY ASKED QUESTIONS
+
+Q: How do I reset my account password?
+A: To reset your password, navigate to the Login page, click on the "Forgot Password" link, enter your registered email address, and follow the instructions sent to your inbox. Passwords must be at least 8 characters long and contain a number and a special character.
+
+Q: What is the refund policy?
+A: Refunds can be requested within 14 days of purchase. To request a refund, contact billing support via billing@example.com with your order details and invoice receipt.
+
+Q: Can I change my billing address?
+A: Yes, you can update your billing address by going to your Account Dashboard, selecting the "Billing & Subscriptions" tab, and clicking "Edit Details".
+
+Q: How do I enable two-factor authentication (2FA)?
+A: To enable 2FA, go to Settings > Security, toggle the "Two-Factor Authentication" option, scan the QR code with your authenticator app (such as Google Authenticator), and enter the verification code.
