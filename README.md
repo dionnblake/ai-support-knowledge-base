@@ -21,36 +21,36 @@ This repository allows customer support agents to upload document archives (manu
 ```text
 ai-support-knowledge-base/
 │
-├── app/                     # Main application code
-│   ├── config.py            # Environment validation & constants
-│   ├── main.py              # Streamlit app orchestration & Custom CSS
-│   ├── components/          # Reusable UI elements
-│   │   ├── file_upload.py   # Ingestion panel & document manager
-│   │   ├── chat_interface.py# Input handling & QA flow execution
-│   │   └── history_display.py# Bubble thread & citation drawer renderer
-│   ├── services/            # Backend services
-│   │   ├── document_loader.py# PDF, DOCX, and TXT parsers
-│   │   ├── text_splitter.py # Recursive text partitioner
-│   │   ├── embeddings.py    # OpenAI embedding connector
-│   │   ├── vector_store.py  # Chroma collection operations
-│   │   └── qa_pipeline.py   # Conversational Retrieval QA chain
-│   └── utils/
-│       ├── file_utils.py    # Upload disk persistence helpers
-│       └── citation_utils.py# Citation tag & mapping parser
+├── app/                             # Main application code
+│   ├── config.py                    # Environment validation & constants
+│   ├── main.py                      # Streamlit app orchestration & Custom CSS
+│   ├── components/                  # Reusable UI elements
+│   │   ├── file_upload.py           # Ingestion panel & document manager
+│   │   ├── chat_interface.py        # Input handling & QA flow execution
+│   │   └── history_display.py       # Bubble thread & citation drawer renderer
+│   ├── services/                    # Backend services
+│   │   ├── document_loader.py       # PDF, DOCX, and TXT parsers
+│   │   ├── text_splitter.py         # Recursive text partitioner
+│   │   ├── embeddings.py            # OpenAI embedding connector
+│   │   ├── vector_store.py          # Chroma collection operations
+│   │   └── qa_pipeline.py           # Conversational Retrieval QA chain
+│   └── utils/                       # Utility helpers
+│       ├── file_utils.py            # Upload disk persistence helpers
+│       └── citation_utils.py        # Citation tag & mapping parser
 │
-├── data/
-│   └── sample_docs/         # Test documents (user_manual, faq)
+├── data/                            # Persistent data storage
+│   └── sample_docs/                 # Test documents (user_manual, faq)
 │
-├── tests/                   # Pytest offline test suite
-│   ├── test_document_loader.py
-│   ├── test_vector_store.py
-│   └── test_qa_pipeline.py
+├── tests/                           # Pytest offline test suite
+│   ├── test_document_loader.py      # Loader unit tests
+│   ├── test_vector_store.py         # Database integration tests
+│   └── test_qa_pipeline.py          # QA pipeline unit tests
 │
-├── docs/                    # In-depth guides & assets
-│   └── README.md
+├── docs/                            # In-depth guides & assets
+│   └── README.md                    # Detailed system documentation
 │
-├── .gitignore
-└── requirements.txt
+├── .gitignore                       # Git exclusion pattern rules
+└── requirements.txt                 # Project dependencies list
 ```
 
 ---
