@@ -1,0 +1,19 @@
+{
+  "event_id": "example-001",
+  "ticket_id": "sample-001",
+  "state": "REVIEW_REQUIRED",
+  "mode": "SYNTHETIC_LOCAL_ONLY",
+  "outbound_actions": 0,
+  "suggestion": "Draft for human review (deterministic template): For an expired password reset link, request a new reset link. Never share your password. [1]",
+  "sources": [
+    {
+      "index": 1,
+      "source_name": "access-guide.txt",
+      "page": null,
+      "label": "access-guide.txt",
+      "snippet": "For an expired password reset link, request a new reset link. Never share your password."
+    }
+  ],
+  "queue": "Access support",
+  "response_type": "DETERMINISTIC_TEMPLATE"
+}

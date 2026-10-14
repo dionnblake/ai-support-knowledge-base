@@ -32,7 +32,7 @@ Here is the flow of information through the system during document ingestion and
 
 1. **Streamlit (Front End)**: Creates a fast, responsive UI with stateful conversation memory. Styled with a custom modern dark-theme CSS layout (Outfit font, gradient header, card styling).
 2. **LangChain (LLM Orchestration)**: Handles the RetrievalQA and conversational history components, facilitating memory management across follow-up questions.
-3. **OpenAI API**: 
+3. **OpenAI API**:
    - Embeddings: `text-embedding-3-small` (1536-dimensional, highly cost-effective).
    - Chat: `gpt-4o-mini` (highly performant and fast support reasoning).
 4. **ChromaDB (Vector Database)**: Lightweight, runs entirely locally, and persists data under `./data/chromadb/`.
