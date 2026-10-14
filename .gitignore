@@ -80,3 +80,6 @@ venv.bak/
 *.sln
 *.swp
 *.swo
+
+work/
+examples/support_workflow/.test-*/

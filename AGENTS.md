@@ -64,8 +64,10 @@ When the user requests a durable behavior change, record it here or in the relev
 
 ## Child DOX Index
 
-- [app/AGENTS.md](file:///c:/Users/ALPHA/Desktop/VIBE CODING PROJECTS/AI SUPPORT AGENT KNOWLEDGE BASE/app/AGENTS.md): Governs all Streamlit UI components, backend service implementations, utilities, and application configuration.
-- [tests/AGENTS.md](file:///c:/Users/ALPHA/Desktop/VIBE CODING PROJECTS/AI SUPPORT AGENT KNOWLEDGE BASE/tests/AGENTS.md): Governs unit testing, mock setup, test design, and local verification commands.
+- `examples/support_workflow/AGENTS.md`: Original synthetic local ticket workflow, deterministic drafts, SQLite checkpoints, and no-outbound review boundary.
+
+- [app/AGENTS.md](app/AGENTS.md): Governs all Streamlit UI components, backend service implementations, utilities, and application configuration.
+- [tests/AGENTS.md](tests/AGENTS.md): Governs unit testing, mock setup, test design, and local verification commands.
 
 ---
 

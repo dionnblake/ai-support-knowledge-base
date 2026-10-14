@@ -1,0 +1,15 @@
+{
+  "command": "python -B -m pytest tests/ examples/support_workflow/tests/ -q",
+  "result": "17 passed, 3 warnings, 5 subtests passed in 5.83s",
+  "focusedSampleTests": 9,
+  "integrations": "Existing model and vector-store tests use mocks; no live API quality is proved.",
+  "warnings": "Three existing LangChain dependency deprecation warnings.",
+  "provenScope": [
+    "original document loading",
+    "mock QA and vector boundaries",
+    "duplicate delivery and payload rejection",
+    "invalid input and missing documentation",
+    "simulated timeout and durable restart recovery",
+    "explicit local review; zero outbound actions"
+  ]
+}

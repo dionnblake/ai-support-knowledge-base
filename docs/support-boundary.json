@@ -1,0 +1,17 @@
+{
+  "duplicate_returns_same_result": true,
+  "missing_documentation": {
+    "event_id": "example-002",
+    "ticket_id": "sample-001",
+    "state": "MISSING_DOCUMENTATION",
+    "mode": "SYNTHETIC_LOCAL_ONLY",
+    "outbound_actions": 0,
+    "suggestion": null,
+    "sources": [],
+    "queue": "General support",
+    "reason": "No supporting sample document; escalate to a human"
+  },
+  "human_review": "PENDING",
+  "outbound_actions": 0,
+  "integrations": "NONE: no Zendesk, Salesforce or LLM calls"
+}
